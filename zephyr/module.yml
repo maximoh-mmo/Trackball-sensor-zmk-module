@@ -1,6 +1,6 @@
 name: zmk-driver-pmw3360
 build:
   cmake: .
-  kconfig: Kconfig
+  kconfig: ./Kconfig
   settings:
     dts_root: .
