@@ -1,10 +1,3 @@
-#
-# Copyright (c) 2019 Nordic Semiconductor
-#
-# SPDX-License-Identifier: LicenseRef-Nordic-5-Clause
-#
-
-
 description: |
     This is a representation of the PMW3360 optical motion sensor
 
@@ -16,3 +9,12 @@ properties:
     irq-gpios:
       type: phandle-array
       required: true
+    scroll-layers:
+        type: array
+        default: []
+    snipe-layers:
+        type: array
+        default: []
+    automouse-layer:
+        type: int
+        default: -1
